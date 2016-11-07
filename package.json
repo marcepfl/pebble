@@ -1,0 +1,43 @@
+{
+    "author": "flavien.bardyn@epfl.ch",
+    "dependencies": {},
+    "keywords": [],
+    "name": "tp-system-engineering",
+    "pebble": {
+        "displayName": "TP System Engineering",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/RESET_ICON",
+                    "name": "RESET_ICON",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/PAUSE_ICON",
+                    "memoryFormat": "1Bit",
+                    "name": "PAUSE_ICON",
+                    "spaceOptimization": "memory",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "62f781cf-0f5a-4218-b73c-a7e947933348",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
